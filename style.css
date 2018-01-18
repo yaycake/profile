@@ -1,6 +1,10 @@
+html{
+
+}
 
 body {
   margin: 0;
+  background-color: #F2F2F2;
 }
 
 .top-header{
@@ -10,21 +14,72 @@ body {
   margin-top: 20px;
   align-items: center;
   padding: 10px;
-  background-color: rgba(255, 255, 255, .5);
+  height: 15vh;
+  /*border: 1px solid blue;*/
+  /*background-color: rgba(0, 0, 0, .2);*/
+  /*background-blend-mode: overlay;*/
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  text-shadow: 1px 1px 5px rgba(5, 5, 5, .2);
 }
 
 .front-end {
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
+  text-align: center;
+  position: relative;
 }
+
+/*.front-end>h3{
+  position: absolute;
+  top: 0px;
+  bottom:;
+
+}*/
+
+
+/*- - - - - - ANIMATION*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .profile-links {
   display: flex;
   position: relative;
-  font-size: 20px;
+  font-size: 25px;
+  /*background-color: black;*/
+  padding: 10px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center
 }
 
 .profile_pic{
@@ -37,17 +92,18 @@ body {
 li>a>i{
   padding: 5px;
   font-size: 20px;
+  color: black;
   /*color: purple;*/
 }
 
 #nav {
   text-decoration: none;
-  display: inline-block;
+  /*display: inline-block;*/
   list-style: none;
   text-align: center;
   position: sticky;
-  left: 20px;
-  top: 20px;
+  left: 30px;
+  top: 30px;
 }
 
 li {
@@ -123,7 +179,7 @@ li {
 
 
 .text-1{
-  /*background-color: #B2DEC3;*/
+
   background-color: #E4F4FB;
 }
 
@@ -136,14 +192,56 @@ li {
   color: white;
 }
 
+.text-4{
+  background-color:#D8E122;
+}
+
+.text-5{
+  background-color: #D23333;
+  color:white;
+}
+
+.text-6{
+   background-color: #B2DEC3;
+}
 
 .white-text {
   color: white;
 }
 
 
+/*- - - - - - -CONTACT FORM*/
+
+.contact {
+  height: 70vh;
+  margin-top: 15vh;
+}
+.contact-header{
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  /*margin-top: 20px;*/
+}
+
+.form-contact {
+  width: 600px
+  height: 500px;
+  border-radius: 4px;
+  padding: 10px;
+}
 
 
+
+
+.footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 11pt;
+  text-align: center;
+  padding: 10px;
+}
 
 
 
