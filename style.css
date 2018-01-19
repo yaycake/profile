@@ -232,7 +232,7 @@ li {
 
 .contact {
   height: 80vh;
-  margin-top: 20vh;
+  margin-top: 15vh;
   position: relative;
   justify-content: center;
   display: flex;
@@ -246,6 +246,11 @@ li {
   margin-bottom: 50px;
   color: #4A4A4A;
   /*margin-top: 20px;*/
+}
+
+.contact-header>p{
+  width: 500px;
+  margin: 0 auto;
 }
 
 .form-contact {
