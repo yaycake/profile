@@ -15,9 +15,9 @@ body {
   display: flex;
   justify-content: space-between;
   color: black;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   align-items: center;
-  padding: 10px;
+  padding: .625rem;
   height: 15vh;
   position: sticky;
   top: 0px;
@@ -74,11 +74,11 @@ h2 span:nth-child(4){ animation-delay:.15s; }
 .profile-links {
   display: flex;
   position: absolute;
-  top: 15px;
-  right: 10px;
-  font-size: 25px;
-  padding: 10px;
-  border-radius: 3px;
+  top: .973rem;
+  right: .625rem;
+  font-size: 1.5625rem;
+  padding: .625rem;
+  border-radius: .188rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -86,14 +86,14 @@ h2 span:nth-child(4){ animation-delay:.15s; }
 
 .profile_pic{
   border-radius: 50%;
-  height: 90px;
-  width: 90px;
-  margin: 10px;
+  height: 5.625rem;
+  width: 5.625rem;
+  margin: .625rem;
 }
 
 .profile-links>a>i{
-  padding: 5px;
-  font-size: 20px;
+  padding: .312rem;
+  font-size: 1.25rem;
   color: #4A4A4A;
    mix-blend-mode: overlay;
   /*color: purple;*/
@@ -105,9 +105,9 @@ h2 span:nth-child(4){ animation-delay:.15s; }
   list-style: none;
   text-align: center;
   position: sticky;
-  left: 30px;
-  top: 30px;
-  letter-spacing: 2px;
+  left: 1.875rem;
+  top: 1.875rem;
+  letter-spacing: .125rem;
 }
 
 li {
@@ -120,8 +120,8 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 40px;
-  margin-left: 50px;
+  margin: 1.25rem 2.5rem;
+  margin-left: 3.125rem;
 }
 
 
@@ -137,7 +137,7 @@ li {
 .card-row {
   margin: 0 auto;
   flex-wrap: wrap;
-  padding: 10px 20px;
+  padding: .625rem 1.25rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -146,11 +146,11 @@ li {
 
 .card-container {
   /*border: 1px solid blue;*/
-  height: 350px;
+  /*height: 350px;
   max-width: 350px;
-  min-width: 350px;
+  min-width: 350px;*/
   /*margin: 30px;*/
-  border-radius: 5px;
+  border-radius: .3125rem;
   /*padding: 5px;*/
   margin: 60px auto;
   /*margin-bottom: 50px;*/
@@ -158,8 +158,9 @@ li {
 
 .image {
   background-color: black;
-  height: 75%;
-  border-radius: 3px 3px 0 0;
+  /*height: 75%;*/
+  height: 15.625rem;
+  border-radius: .1875rem .1875rem 0 0;
   background-size: cover;
   background-position: center;
 }
@@ -177,18 +178,18 @@ li {
 }
 
 .icon-links{
-  font-size: 20px;
+  font-size: .875rem;
   color: white;
 }
 
 .icon-links a {
-  color: #E85611;
-  padding: 0 5px;
+  color: white;
+  padding: 0 .3125rem;
 }
 
 .text {
-  padding: 20px;
-  font-size: 11px;
+  padding: 1.25rem;
+  font-size: .6875rem;
 }
 
 .text>p>a{
@@ -237,35 +238,36 @@ li {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  font-size: .75rem;
 }
 .contact-header{
   justify-content: center;
   flex-direction: column;
   display: flex;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   color: #4A4A4A;
   /*margin-top: 20px;*/
 }
 
 .form-contact {
-  width: 600px
-  height: 500px;
-  border-radius: 4px;
-  padding: 10px;
+  width: 37.4rem;
+  height: 31.25rem;
+  border-radius: .25rem;
+  padding: .625rem;
   margin: 0 auto;
 }
 
 /*- - - - - - - - FOOTER*/
 
 .footer {
-  height: 100px;
+  height: 20vh;
   background-color: #4A4A4A;
   color: white;
-  font-size: 11pt;
+  font-size: .625
   text-align: center;
-  padding: 20px;
-  border-bottom: 10px solid #757575;
+  padding: 1.25rem;
+  border-bottom: .625rem solid #757575;
 }
 
 
@@ -273,7 +275,7 @@ li {
   color: white;
   display: flex;
   justify-content: space-around;
-  width: 300px;
+  width: 18.75rem;
   margin: 0 auto;
 }
 
