@@ -275,8 +275,12 @@ li {
   padding: 1.25rem;
   border-bottom: .625rem solid #757575;
   margin-top: 5%;
+  width: 100%;
 }
 
+.footer>p {
+  font-size: .875rem;
+}
 
 .footer-social {
   color: white;
@@ -284,6 +288,9 @@ li {
   justify-content: space-around;
   width: 18.75rem;
   margin: 0 auto;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .footer-social>i>a{
