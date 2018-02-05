@@ -274,6 +274,7 @@ li {
   text-align: center;
   padding: 1.25rem;
   border-bottom: .625rem solid #757575;
+  border-top: .625rem solid #757575;
   margin-top: 5%;
   width: 100%;
 }
@@ -289,8 +290,8 @@ li {
   width: 18.75rem;
   margin: 0 auto;
   font-size: 1rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .footer-social>i>a{
